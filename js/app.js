@@ -11,7 +11,7 @@ var shortAnswer = firstAnswer.toLowerCase();
 if(shortAnswer === 'yes') {
   alert('Awesome! Well I guess that question counted so 4 more to go.');
 } else {
- var wrongAnswer = alert('OK well take a look at my awesome web design before you. Bye!');
+ var wrongAnswer = alert('Incorrect.');
 }
 
 var secondAnswer = prompt('Am I a male?');
@@ -45,9 +45,9 @@ var lastQuestion = prompt('Did I make the best website on earth?');
 var shortLastQuestion = lastQuestion.toLowerCase();
 
 if(shortLastQuestion === 'yes') {
-  alert('How did you know! For getting all the questions right, I\'ll let you witness the best website on earth. Here it is!');
+  alert('How did you know! For getting the most important question right, I\'ll let you witness the best website on earth. Here it is!');
 } else {
-  alert(wrongAnswer);
+  alert('Incorrect');
 }
 
 
